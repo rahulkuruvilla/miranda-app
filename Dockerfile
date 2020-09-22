@@ -5,4 +5,5 @@ COPY mira.tgz /temp/
 WORKDIR /temp
 RUN tar xpzf mira.tgz -C /
 
+
 CMD ["mira"]
